@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <div class="main">
+        <header id="header">
+            <div class="d-flex flex-column">
+                <div class="profile">
+                    <img src="/img/dp.jpeg" alt="" class="img-fluid rounded-circle">
+                    <h1 class="text-light"><a href="index.html">Ashwin Shetty</a></h1>
+                    <div class="social-links mt-3 text-center">
+                        <a href="https://wa.me/9113982842" target="_blank" class="whatsapp"><i
+                                class="bi bi-whatsapp"></i></a>
+                        <a href="https://www.facebook.com/ashwinshetty.puthige" target="_blank" class="facebook"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/ashwin_shettiiiii/" target="_blank" class="instagram"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ashwin-shetty-92ba43253/" target="_blank"
+                            class="linkedin"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+                <nav id="navbar" class="nav-menu navbar">
+                    <ul class="mx-3 my-3">
+                        <li><a href="#" class="nav-link active fw-bold"><i class="bi bi-house"></i> <span
+                                    class="ms-3">Home</span></a></li>
+                        <li><a href="#about" class="nav-link active fw-bold"><i class="bi bi-file-earmark-person"></i>
+                                <span class="ms-3">About</span></a></li>
+                        <li><a href="#resume" class="nav-link active fw-bold"><i class="bi bi-file-earmark"></i> <span
+                                    class="ms-3">Resume</span></a></li>
+                        <!-- <li><a href="#portfolio" class="nav-link active"><i class="bi bi-book-content"></i> <span class="ms-3">Portfolio</span></a></li> -->
+                        <!-- <li><a href="#service" class="nav-link active fw-bold"><i class="bi bi-server"></i> <span
+                                    class="ms-3">Integrify</span></a></li> -->
+                        <li><a href="#contact" class="nav-link active fw-bold"><i class="bi bi-envelope"></i> <span
+                                    class="ms-3">Contact</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="ms-3">
+                <hr class="text-light fs-4 me-5">
+                <div class="dropdown">
+                    <a href="#"
+                        class="d-flex align-items-center link-body-emphasis text-decoration-none dropdown-toggle"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <div><i class="bi bi-person-bounding-box text-light fs-4 ms-5"></i></div>
+                        <!-- <img src="/img/profile.jpeg" alt="" width="52" height="42" class="rounded-circle ms-2"> -->
+                        <strong class="text-light ms-3">Profile</strong>
+                    </a>
+                    <ul class="dropdown-menu text-small shadow">
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="contents bg-white vh-50">
+            <div id="#" class="home img-fluid position-relative">
+                <!-- <img src="/img/w10004.jpg" alt=""> -->
+                <div class="home-content"></div>
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img src="/img/w10004.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Angular Artisan</h5>
+                                <p>Crafting immersive user experiences with Angular. Transforming designs into dynamic
+                                    frontend masterpieces.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="/img/ashwin.jpeg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Spring Boot & .NET Ninja</h5>
+                                <p>Engineer of resilient backend solutions using Spring Boot and .NET. Leveraging
+                                    frameworks to build scalable and secure server-side systems.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="/img/ashwin3.jpeg" class="d-block w-100 opacity-75" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>PL/SQL & MySQL Maestro</h5>
+                                <p>Sculpting efficient databases with PL/SQL and MySQL. Expertise in managing and
+                                    optimizing data structures for performance and reliability.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+            <div class="cards container w-100 bg-white shadow-lg p-3 mb-3 bg-body-tertiary rounded">
+                <div id="about" class="bg-white ps-3">
+                    <div class="row ">
+                        <h2 id="about-first-div" class=".d-inline-block ms-2 pb-3"
+                            style="width: 60px; border-bottom: 6px solid #149ddd;">About</h2>
+                    </div>
+                    <div class="row">
+                        <p id="firstp" class="mt-3">I am a skilled developer with extensive experience in Spring Boot
+                            Java,
+                            coupled with
+                            proficiency
+                            in HTML, CSS, and Bootstrap. I have successfully managed significant corporate projects
+                            during
+                            my internship, demonstrating expertise in both static and dynamic frontend website
+                            development.
+                            In addition to my technical skills, I possess strong problem-solving abilities and a keen
+                            eye
+                            for detail, allowing me to deliver high-quality solutions that meet both client requirements
+                            and
+                            industry standards
+                        </p>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="bimg col-4 rounded">
+                        </div>
+                        <div class="col-8">
+                            <h2>Full Stack Developer</h2>
+                            <p class="mt-3">I am a versatile full-stack developer proficient in Angular and .NET
+                                Framework,
+                                equipped with
+                                the expertise to seamlessly navigate both frontend and backend development processes</p>
+                            <div class="row mt-3">
+                                <div class="col-6">
+                                    <ul class="lh-lg ps-0">
+                                        <li class="nav-link"><i class="bi bi-chevron-right text-primary"></i>
+                                            <strong>Birthday:</strong> <span>18 January 2001</span>
+                                        </li>
+                                        <li class="nav-link"><i class="bi bi-chevron-right text-primary"></i>
+                                            <strong>Website:</strong> <span>www.ashwin.com</span>
+                                        </li>
+                                        <li class="nav-link"><i class="bi bi-chevron-right text-primary"></i>
+                                            <strong>Phone:</strong> <span>+91 9113982842 </span>
+                                        </li>
+                                        <li class="nav-link"><i class="bi bi-chevron-right text-primary"></i>
+                                            <strong>City:</strong> <span>Mangalore, India</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="lh-lg ps-0">
+                                        <li class="nav-link"><i class="bi bi-chevron-right text-primary"></i>
+                                            <strong>Age:</strong> <span>24</span>
+                                        </li>
+                                        <li class="nav-link"><i class="bi bi-chevron-right text-primary"></i>
+                                            <strong>Degree:</strong> <span>MCA</span>
+                                        </li>
+                                        <li class="nav-link"><i class="bi bi-chevron-right text-primary"></i>
+                                            <strong>Email:</strong> <span>shettyashwin254@gmail.com</span>
+                                        </li>
+                                        <li class="nav-link"><i class="bi bi-chevron-right text-primary"></i>
+                                            <strong>Experience:</strong> <span>6 months</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="resume"
+                class="bg-white ps-3 cards container w-100 bg-white shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                <h2 id="resume-first-div" class=".d-inline-block ms-2 pb-3"
+                    style="width: 60px; border-bottom: 6px solid #149ddd;">Resume</h2>
+                <p id="objective">To work with a Company which appreciates Innovation so
+                    that I can enhance my Knowledge and Skills to give my best
+                    for the growth of the Company.</p>
+
+                <div class="row">
+                    <div class="project col-5">
+                        <h4>PROJECT</h4>
+                        <div>
+                            <h5>COAID (Covid Management System)</h5>
+                            <p style="text-align: justify;">This is an online Covid service system that assists
+                                the
+                                public
+                                in finding hospitals, scheduling tests, and arranging
+                                ambulance facilities during the ongoing pandemic.
+                            <ul>
+                                <li>Language used: PHP, CSS, HTML
+                                <li>Database tools: MySQL</li>
+                                <li> Software: Sublime text Editor
+                            </ul>
+                            </p>
+                            </li>
+                            </u>
+                        </div>
+                        <div>
+                            <h5>Exam Portal</h5>
+                            <p style="text-align: justify;">Online Exam Portalis a technology based assessment
+                                creation that allowsyou to give exams anywhere.
+                            <ul>
+                                <li>Language used: Java, JavaScript, HTML, CSS
+                                <li>Database tools: PostgresSQL</li>
+                                <li> Software: Intelij Idea, VScode
+                            </ul>
+                            </p>
+                            </li>
+                            </u>
+                        </div>
+                    </div>
+                    <div class="resume col-6">
+                        <h4>EDUCATION</h4>
+                        <div>
+                            <h6>Master of Computer Applications in Data Science</h6>
+                            <p style="font-size: 14px;">2021-2023 (9.23 CGPA) <br>
+                                Srinivas Institute of Technology Pandeshwar</p>
+                            </li>
+                            </u>
+                        </div>
+                        <br>
+                        <div>
+                            <h6>Bachelor of Computer Application</h6>
+                            <p style="font-size: 14px;">2018-2021 (8.50 CGPA) <br>
+                                Sri Ramakrishna College, Bunts Hostel</p>
+                            </li>
+                            </u>
+                        </div>
+                        <br>
+                        <div>
+                            <h6>Senior Secondary (PUC)</h6>
+                            <p style="font-size: 14px;">2016-2018 (92%) <br>
+                                Vivekananda P U College Puttur</p>
+                            </li>
+                            </u>
+                        </div>
+                        <br>
+                        <div>
+                            <h6>Secondary School (SSLC)</h6>
+                            <p style="font-size: 14px;">2014-2016 (9 A+ and 1 A) <br>
+                                GHSS Angadimogar, Kerala</p>
+                            </li>
+                            </u>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="work_exp col-5">
+                        <h4>WORK EXPERIENCE</h4>
+                        <div>
+                            <h5>DevAppSys IT Solutions Pvt Ltd</h5>
+                            <p style="text-align: justify;">Worked as intern(August-February) <br>
+                                Backend Developer with experience using PLSQL, Spring
+                                Boot Framework, and successfully resolved issues in an
+                                existing project built on the Struts2 framework.
+                            <ul>
+                                <li>Language used: HTML, CSS, Java
+                                <li>Tools Used: pgAdmin, InteliJ Idea, VS code, Jira, Git </li>
+                                <li> Projects: Inventory Management System, Pivot Report
+                            </ul>
+                            </p>
+
+                            </u>
+                        </div>
+                    </div>
+                    <div class="col-5 skills">
+                        <h4 class="text-center me-5">Skills</h4>
+                        <div class="row">
+                            <div class="col-6">
+                                <h5>Technical Skills</h5>
+                                <ul>
+                                    <li>Java
+                                    <li>C,C++
+                                    <li>HTML
+                                    <li>CSS
+                                    <li>SQLYog
+                                    <li>pgAdmin
+                                    <li>MYSQL
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <h5>Soft Skills</h5>
+                                <ul>
+                                    <li>Good Programming skills
+                                    <li>Diligent work ethic
+                                    <li>Effective communicator
+                                    <li>Self-motivated
+                                    <li>Fast learner
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div id="service" class="bg-white ps-3 mt-4">
+            <div class="cards container w-100 bg-white shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                <h2 id="resume-first-div" class=".d-inline-block ms-2 pb-3 mt-4"
+                    style="width: 60px; border-bottom: 6px solid #149ddd;">Integrify</h2>
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+            </div>
+        </div> -->
+            <div id="contact" class="bg-info">
+                <div class="cards container w-100 bg-white shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                    <h2 id="resume-first-div" class=".d-inline-block ms-2 pb-3 mt-4"
+                        style="width: 60px; border-bottom: 6px solid #149ddd;">Contact</h2>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 25rem;">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1207.3623107327521!2d74.85430089489425!3d12.854173877297576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba35bc61af51ca3%3A0xdc2ea4e6fb17283c!2s24-14-1258%2C%20Nandi%20Gudda%2C%20Mangaluru%2C%20Karnataka%20575001!5e0!3m2!1sen!2sin!4v1715854202446!5m2!1sen!2sin" width="360" height="175" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <div class="address">
+                                            <i class="bi bi-geo-alt text-primary"></i>
+                                            <span class="fs-5">Location:</span>
+                                            <p>Sri Vinayaka(H), Bappal road, Nandigudda, Mangalore, Dakshina Kannada
+                                                575008</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="address">
+                                            <i class="bi bi-envelope text-primary"></i>
+                                            <span class="fs-5">Email:</span>
+                                            <p>shettyashwin254@gmail.com</p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <div class="address">
+                                            <i class="bi bi-telephone text-primary"></i>
+                                            <span class="fs-5">Call:</span>
+                                            <p>+91 9113982842</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-8 card shadow-lg p-3 bg-body-tertiary rounded h-50" style="width: 477px;
+                        margin-left: 144px;">
+                            <form action="#" method="post" role="form">
+                                <div class="row">
+                                    <div class="form-group col-md-6">
+                                        <label for="name">Your Name</label>
+                                        <input type="text" name="name" class="form-control" id="name" required="">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="name">Your Email</label>
+                                        <input type="email" class="form-control" name="email" id="email" required="">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="name">Subject</label>
+                                    <input type="text" class="form-control" name="subject" id="subject" required="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="name">Message</label>
+                                    <textarea class="form-control" name="message" rows="10" required=""></textarea>
+                                </div>
+                                <div class="text-center mt-4"><button type="submit" class="text-primary">Send Message</button></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="back-to-top rounded-circle d-flex align-items-center justify-content-center"><a href="#"><i
+                        class="bi bi-arrow-up text-light"></i></a></div>
+        </div>
+    </div>
+</body>
+
+</html>

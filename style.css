@@ -1,0 +1,189 @@
+a {
+    color: #149ddd;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #37b3ed;
+    text-decoration: none;
+}
+
+#header {
+    background: #040b14;
+    width: 20%;
+    height: 700px;
+    position: fixed;
+
+}
+
+#header .profile img {
+    margin: 15px auto;
+    display: block;
+    width: 120px;
+    border: 8px solid #2c2f3f;
+}
+
+#header .profile h1 a,
+#header .profile h1 a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+#header .profile .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+#header .profile h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    /* -moz-text-align-last: center; */
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.text-light {}
+
+.nav-menu a {
+    display: flex;
+    align-items: center;
+    color: #a8a9b4;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+.nav-menu li {
+    list-style: none;
+}
+
+.nav-menu a:hover {
+    color: #37b3ed;
+}
+
+.content {
+    width: 80%;
+    height: 500px;
+    background-color: green;
+}
+
+.contents {
+    width: 80%;
+    float: right;
+}
+
+.back-to-top {
+    width: 60px;
+    height: 60px;
+    background-color: #173b6c;
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    border: 2px solid black;
+    font-size: 20px;
+
+    i {
+        font-size: xx-large;
+    }
+}
+
+.home {
+    background-color: #6c757d;
+
+    img {
+        /* height: 700px; 
+     width: 100%; */
+        /* height: 100%; */
+        background-size: contain;
+    }
+}
+
+#about-first-div {
+    margin-top: 70px;
+    padding: 0%;
+    border-color: #149ddd;
+    ;
+
+}
+
+#about {
+    height: 700px;
+
+    #firstp {
+        font-family: cursive;
+        font-size: large;
+    }
+
+    h2 {
+        color: #173b6c;
+    }
+}
+
+.bimg {
+    background-image: url('/img/about.jpeg');
+    width: 25%;
+    height: 280px;
+    background-size: cover;
+
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#resume-first-div {
+    color: #173b6c;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 44%;
+    left: 11%;
+
+    h5 {
+        font-size: 2.25rem;
+    }
+
+    p {
+        font-family: cursive;
+        font-size: x-large;
+    }
+}
+
+#objective {
+    font-family: cursive;
+    font-size: large;
+}
+
+.project::before, .resume::before, .work_exp::before , .skills::before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #1f5297;
+}
+
+.project, .resume, .work_exp, .skills{
+    border-left: 3px solid#1f5297;
+    position: relative;
+    margin-left: 18px;
+}
+
+
